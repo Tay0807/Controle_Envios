@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dongle:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Dongle', sans-serif;
+    overflow: hidden;
+}
+
+
+:root {
+    --laranja--color: #ffb8046a;
+    --preta--color: black;
+
+}
+
+body{
+    background-color: var(--laranja--color);
+}
+
+header{
+    background-color: var(--preta--color);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#nav_historico{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    border: 5px;
+}
+
+#nav_historico:hover{
+    padding: 7px;
+    text-decoration: underline;
+}
+
+#historicos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+
+#hist_excluido, #hist_concluido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hist_lista{
+    background-color: #ffffff61;
+    width: fit-content;
+    height: 400px;
+    width: 550px;
+    overflow: auto;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.288) 6px 6px 6px 6px;
+}
+
+#bnt_historico{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 82, 9, 1) 35%, rgba(255, 175, 0, 1) 100%);
+    color: white;
+    width: 200px;
+    border: none;
+    font-size: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.288) 6px 6px 6px 6px;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 50px;
+    border: none;
+}
+
+#btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 4px;
+}
+
+#p_hist, summary{
+    font-size: 25px;
+    margin: 5px;
+}
+
+.span{
+    color: rgb(238, 167, 37);
+    font-weight: bolder;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "multi-select-tag",
+  "version": "1.1.1",
+  "description": "HTML multiple tag selection input.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify-js": "minify src/js/multi-select-tag.js > dist/js/multi-select-tag.js",
+    "minify-css": "minify src/css/multi-select-tag.css > dist/css/multi-select-tag.css",
+    "minify": "npm run minify-js && npm run minify-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habibmhamadi/multi-select-tag.git"
+  },
+  "keywords": [
+    "multi",
+    "select",
+    "multiple",
+    "multi-select",
+    "multiple-select",
+    "tag",
+    "vue",
+    "tailwind",
+    "css",
+    "react",
+    "html"
+  ],
+  "author": "Habib Mhamadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/habibmhamadi/multi-select-tag/issues"
+  },
+  "homepage": "https://github.com/habibmhamadi/multi-select-tag#readme",
+  "dependencies": {
+    "minify": "^9.1.0"
+  }
+}

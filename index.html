@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de entregas</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="./assets/img/logo bully.png" alt="Logo bully">
+        </figure>
+        <nav>
+            <a id="nav_historico" href="./historico.html">Historico</a>
+        </nav>
+    </header>
+
+    <main id="controle">
+        <h1>Controle de entregas</h1>
+        <div id="divs">
+            <section id="form">
+                <form >
+                    <div class="item-form">
+                        <label for="vendedor"><img src="./assets/img/vendedor (3).png" alt=""></label>
+                        <select name="vendedor" id="vendedor">
+                            <option value="">Vendedor</option>
+                            <option value="Fernanda">Fernanda</option>
+                            <option value="Juliana">Juliana</option>
+                            <option value="Antônio">Antônio</option>
+                            <option value="Talita">Talita</option>
+                            <option value="Weverton">Weverton</option>
+                            <option value="Carina">Carina</option>
+                            <option value="Rafaela">Rafaela</option>
+                            <option value="Graziela">Graziela</option>
+                            <option value="Luciane">Luciane</option>
+                            <option value="Thaysa">Thaysa</option>
+                            <option value="Tamires">Tamires</option>
+                            <option value="Miriam">Miriam </option>
+                            <option value="Daniel">Daniel</option>
+                            <option value="Victor">Victor</option>
+                            <option value="Mayara">Mayara</option>
+                        </select>
+                    </div>
+                    <div class="item-form">
+                        <label for="cliente"><img src="./assets/img/cliente.png" alt=""></label>
+                        <input type="text" required id="cliente" placeholder="Adicione o nome do cliente">
+                    </div>
+
+                    <div class="item-form">
+                        <label for="pedido"><img src="./assets/img/pedido.png" alt=""></label>
+                        <select id="pedido" multiple>
+                            <option value="Adulto P.">Adulto Performace</option>
+                            <option value="R. Filhote">Raçao Filhote</option>
+                            <option value="Maxx Protein">Maxx Protein</option>
+                            <option value="Raças Pequenas">Raças Pequenas</option>
+                            <option value="Baby protein">Baby protein</option>
+                            <option value="Raças Pequenas">Raças Pequenas</option>
+                            <option value="Bully protein">Bully protein</option>
+                            <option value="Nutri protein">Nutri protein</option>
+                            <option value="Monster protein">Monster protein</option>
+                            <option value="Long life">Long life</option>
+                            <option value="Pelo e derme">Pelo e derme</option>
+                        </select>
+                    </div>
+                    <div class="item-form">
+                        <label for="quant"><img src="./assets/img/quantidade.png" alt=""></label>
+                        <input type="number" required id="quant" placeholder="Adicione a quantidade de produtos">
+                    </div>
+                    <div class="item-form">
+                        <label for="transp"><img src="./assets/img/transportadora.png" alt=""></label>
+                        <select name="transp" id="transp" >
+                            <option value="">Transportadora</option>
+                            <option value="Braspress">Braspress</option>
+                            <option value="Rodonaves">Rodonaves</option>
+                            <option value="TDB">TDB</option>
+                            <option value="Generoso">Generoso</option>
+                            <option value="Jadlog">Jadlog</option>
+                            <option value="Atual Cargas">Atual Cargas</option>
+                            <option value="Expresso R.V">Expresso R.V</option>
+                            <option value="Cruzeiro do sul">Cruzeiro do sul</option>
+                            <option value="Via Pajuçara">Via Pajuçara</option>
+                            <option value="Retirada empresa">Retirada empresa</option>
+                            <option value="Entregar">Entregar p/empresa</option>
+                        </select>
+                    </div>
+
+                    <div class="item-form" id="quant-select">
+                    </div>
+
+                    <div>
+                        <button type="button" id="bnt">Enviar dados</button>
+                    </div>
+                </form>
+            </section>
+
+            <section id="checkk">
+                <div id="pedidos">
+                    <div id="inicio">
+                        <p>Pedidos</p>
+                        <img src="./assets/img/logo bully.png" alt="">
+                    </div>
+                    
+                    <div id="conteudo"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+<script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js"></script>
+<script src="./assets/js/js.js"></script>
+</html>
