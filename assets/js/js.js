@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 var bnt = document.getElementById('bnt')
 
+
 if (bnt) {
     bnt.addEventListener('click', function(){
         var nome_cliente = document.getElementById('cliente')
